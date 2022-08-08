@@ -9,10 +9,10 @@
 
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var reader = new DataReader();
-            reader.ImportAndPrintData("dataa.csv");
+            reader.ImportAndPrintData("data.csv");
         }
     }
 }
